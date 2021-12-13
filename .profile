@@ -5,6 +5,8 @@ export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 export PATH=/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH
 # gnu sed
 export PATH=/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH
+# gnu find + xargs
+export PATH=/opt/homebrew/opt/findutils/libexec/gnubin:$PATH
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
 # don't print last login on every terminal
