@@ -7,6 +7,8 @@ export PATH=/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH
 export PATH=/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH
 # gnu find + xargs
 export PATH=/opt/homebrew/opt/findutils/libexec/gnubin:$PATH
+# gnu grep
+export PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
 # don't print last login on every terminal
