@@ -19,3 +19,6 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 
 # allow time machine to backup to samba/nfs
 defaults write com.apple.systempreferences TMShowUnsupportedNetworkVolumes 1
+
+# save to disk (not iCloud) by default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
