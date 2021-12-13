@@ -22,3 +22,6 @@ defaults write com.apple.systempreferences TMShowUnsupportedNetworkVolumes 1
 
 # save to disk (not iCloud) by default
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+
+# automatically quit printer app once the print jobs complete
+defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
